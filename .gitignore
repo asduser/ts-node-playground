@@ -5,3 +5,8 @@
 # configuration
 .env
 node_modules/
+
+# dev dir's
+test/
+output/
+build/
