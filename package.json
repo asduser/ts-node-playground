@@ -1,0 +1,24 @@
+{
+  "name": "languages-playground-ts-node",
+  "version": "1.0.0",
+  "description": "Testing fetures, modules, approaches using ts-node.",
+  "main": "index.js",
+  "scripts": {
+    "closure": "npx ts-node ./closure/closure.ts",
+    "memory-cache": "npx ts-node ./memory-cache/memory-cache.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "24.0.18",
+    "@types/memory-cache": "0.2.0",
+    "@types/node": "12.7.3"
+  },
+  "dependencies": {
+    "jest": "24.9.0",
+    "memory-cache": "0.2.0",
+    "ts-node": "8.3.0",
+    "typescript": "3.6.2"
+  }
+}
