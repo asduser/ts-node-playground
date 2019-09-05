@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+
+  mysql-playground:
+    container_name: mysql-playground
+    image: wangxian/alpine-mysql:latest
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./scripts/:/app/scripts
