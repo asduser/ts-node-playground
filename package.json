@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "closure": "npx ts-node ./closure/closure.ts",
-    "memory-cache": "npx ts-node ./memory-cache/memory-cache.ts"
+    "memory-cache": "npx ts-node ./memory-cache/memory-cache.ts",
+    "async-loop": "npx ts-node ./async-loop/async-loop.ts"
   },
   "keywords": [],
   "author": "",
