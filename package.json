@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "Testing fetures, modules, approaches using ts-node.",
   "main": "index.js",
-  "scripts": {
-    "closure": "npx ts-node ./closure/closure.ts",
-    "memory-cache": "npx ts-node ./memory-cache/memory-cache.ts",
-    "async-loop": "npx ts-node ./async-loop/async-loop.ts"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +13,8 @@
     "@types/node": "12.7.3"
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.19.0",
     "jest": "24.9.0",
     "memory-cache": "0.2.0",
     "ts-node": "8.3.0",
